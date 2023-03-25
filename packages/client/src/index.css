@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-[#121212] text-white;
+  }
+}
+
+@layer components {
+  .center {
+    @apply flex flex-col justify-center items-center gap-2;
+  }
+
+  .head {
+    @apply text-4xl font-bold;
+  }
+}
